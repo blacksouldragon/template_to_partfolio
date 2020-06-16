@@ -1,0 +1,13 @@
+$h9: 90%;
+$whiteColor: #ffffff;
+$left: left;
+$full: 100%;
+@mixin colorWhite{
+  color: $whiteColor;
+}
+@mixin textCenter{
+  text-align: center;
+}
+@mixin floatL{
+  float: $left;
+}

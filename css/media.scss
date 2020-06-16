@@ -1,0 +1,48 @@
+@media (max-width: 767px){
+  h2{font-size:27px;}
+  #bg_cover a{
+    text-align: center;
+    font-size: 20px;
+  }
+  .phone{width: 100%;}
+  #blog {
+    #icon {width: 16px;}
+    .absol{top: 16%; font-size: 20px;}
+  }
+  #dropdown h1{font-size:20px}
+  #counter td, #counter th{
+    font-size: 20px;
+    padding:5px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+  p{font-size: 20px;}
+  h1{font-size:40px;}
+  //menu
+  #bg_cover a{
+    text-align: center;
+    font-size: 20px;
+  }
+  #center h1{font-size: 40px;}
+  #dropdown{
+    h1{font-size: 30px;}
+    p{font-size: 20px;}
+  }
+  #blog{
+    .absol{top: 16%; font-size: 20px;}
+    #icon{width: 16px;}
+  }
+  #blogs h1{clear: both;}
+  #lastImg{
+    float: left;
+    .clear{
+      clear: none;
+      display: none;
+    }
+  }
+}
+@media (min-width: 1200px){
+  p{font-size: 20px;}
+  h1{font-size:40px;}
+  #center h1{font-size: 40px;}
+}
